@@ -11,6 +11,8 @@ function nowServing(line) {
 
 function currentLine(line) {
   let arr=[]
+  line.
+  
   for (let i=0; i<line.length; i++) {
     arr.push(i+1+'. ' + line[i])
   }
