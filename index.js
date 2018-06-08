@@ -11,9 +11,5 @@ function nowServing(line) {
 
  function currentLine(line) {
   let arr=line.map((elem, i) => i+1 +'. ' + elem)
-  
-  // for (let i=0; i<line.length; i++) {
-  //   arr.push(i+1+'. ' + line[i])
-  // }
   return !(line.length) ? 'The line is currently empty.' : 'The line is currently: ' + arr.join(', ') 
 }
