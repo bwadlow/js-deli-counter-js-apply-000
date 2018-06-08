@@ -9,11 +9,8 @@ function nowServing(line) {
   return 'Currently serving ' + line.shift() + '.'
 }
 
-function currentLine(line) {
-  let arr=line.forEach(function (elem, i) {
-    i+1 +'. ' + elem
-  })
-  
+ function currentLine(line) {
+  let arr=line.map((elem, i) => i+1 +'. ' + elem)
   
   // for (let i=0; i<line.length; i++) {
   //   arr.push(i+1+'. ' + line[i])
