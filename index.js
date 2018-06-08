@@ -10,7 +10,9 @@ function nowServing(line) {
 }
 
 function currentLine(line) {
-  let arr=line.forEach((elem, i) => i+1+'. ' + elem)
+  let arr=line.forEach(function (elem, i) {
+   return i+1+'. ' + elem
+  })
   
   
   // for (let i=0; i<line.length; i++) {
