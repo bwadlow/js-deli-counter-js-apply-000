@@ -11,7 +11,7 @@ function nowServing(line) {
 
 function currentLine(line) {
   let arr=line.forEach(function (elem, i) {
-   return i+1+'. ' + elem
+    i+1+'. ' + elem
   })
   
   
